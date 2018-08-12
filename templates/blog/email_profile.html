@@ -1,0 +1,9 @@
+{% if detail.picture %}
+{% load static %}
+<p><img src="{{ detail.picture }}" width="100" alt="My image"></p>
+{% endif %}
+
+<p><strong>Name: {{ detail.name }}</strong></p>
+<p><strong>Email: {{ detail.email }}</strong></p>
+<p><strong>Age: {{ detail.age }}</strong></p>
+<p><strong>City: {{ detail.city }}</strong></p>
